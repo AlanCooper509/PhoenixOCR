@@ -64,3 +64,18 @@ python run.py samples/versailles.png --mode scores
     }
 }
 ```
+
+```
+# running:
+python run.py samples/versailles.png --mode scores -w
+
+# writes to outputs/<sec_since_epoch_timestamp>.json file:
+{
+    "P1": {
+        "Score": 951257
+    },
+    "P2": {
+        "Score": null
+    }
+}
+```
